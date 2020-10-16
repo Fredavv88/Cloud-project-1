@@ -34,9 +34,9 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway   | 10.0.0.4   | Linux            |
-| DVWA 1   | Web Server| 10.0.0.5   | LINUX            |
-| DVWA 2   | Web Server| 10.0.0.6   | LINUX            |
-| ELK      | Monitoring| 10.0.0.8   | LINUX            |
+| DVWA 1   | Web Server| 10.0.0.8  | LINUX            |
+| DVWA 2   | Web Server| 10.0.0.9   | LINUX            |
+| ELK      | Monitoring| 10.2.0.4   | LINUX            |
 
 ### Access Policies
 
@@ -55,15 +55,14 @@ A summary of the access policies in place can be found in the table below.
 | Jump Box | Yes/No              
 | VM-3     | NO                  |                      |
 | VM-4     | NO                  |                      |
-| VM-5.    | NO                  | 			     |
-| LOAD BAL.| YES	                |				     |
+| LOAD BAL.| YES	               |	          			     |
 
 ALLOWED IP ADDRESSES: 
-JUMP BOX: 10.0.0.7, 10.0.0.8, 10.1.0.4, 
-VM-3: 10.0.0.6, 10.0.0.8, 10.1.0.4, 101.112.103.93        
-VM-4: 10.0.0.6, 10.0.0.7, 10.1.0.4, 101.112.103.93        
-VM-5: 10.0.0.6, 10.0.0.7, 101.112.103.93
-LOAD BALANCER: 10.0.0.6, 10.0.0.7, 10.0.0.8, 10.1.0.4
+JUMP BOX: 10.0.0.8, 10.0.0.9, 10.2.0.4, 101.112.103.93   
+VM-2: 10.0.0.8, 10.0.0.9, 10.2.0.4, 101.112.103.93        
+VM-3: 10.0.0.8, 10.0.0.9, 10.2.0.4, 101.112.103.93        
+
+LOAD BALANCER: 10.0.0.8, 10.0.0.9 
 
 ### Elk Configuration
 
@@ -84,7 +83,7 @@ The following screenshot displays the result of running `docker ps` after succes
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 - _TODO: List the IP addresses of the machines you are monitoring_
-10.0.0.7, 10.0.0.8
+10.0.0.8, 10.0.0.9
 
 We have installed the following Beats on these machines:
 - _TODO: Specify which Beats you successfully installed_
@@ -109,3 +108,6 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Which URL do you navigate to in order to check that the ELK server is running? http://[yourvmIPaddress]:5601/app/kibana 
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+- playbook-ansible "yamlfile.yml" (to run the playbook) 
+- update the config/host files in ansible (docker container) with nano e.g. nano "metricbeat-config.yml"
+
