@@ -66,7 +66,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
 
-![alt text](https://github.com/Fredavv88/Cloud-project-1/blob/main/Diagrams/DockerPs.png)
+![alt text](https://github.com/Fredavv88/Cloud-project-1/blob/main/Images/DockerPs.png)
 
 ###### **Target Machines & Beats**
 
