@@ -1,4 +1,4 @@
-**Automated ELK Stack Deployment**
+:point_right: **Automated ELK Stack Deployment** :point_left:
 
 *The files in this repository were used to configure the network depicted below.*
 
