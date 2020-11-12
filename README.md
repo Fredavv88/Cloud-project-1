@@ -103,9 +103,9 @@ SSH into the control node and follow the steps below:
 
 Example of a successful Filebeat Installation:
 
-![alt text](https://github.com/Fredavv88/Cloud-project-1/blob/main/Diagrams/Filebeat.png)
+![alt text](https://github.com/Fredavv88/Cloud-project-1/blob/main/Images/Filebeat.png)
 
 Kibana dashboard: 
 
-![alt text](https://github.com/Fredavv88/Cloud-project-1/blob/main/Diagrams/Kibana.png)
+![alt text](https://github.com/Fredavv88/Cloud-project-1/blob/main/Images/Kibana.png)
 
