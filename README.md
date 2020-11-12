@@ -22,11 +22,13 @@ Load balancing ensures that the application will be highly available, in additio
 
 The configuration details of each machine may be found below. Note: Use the Markdown Table Generator to add/remove values from the table.
 
-   Name   Function	IP   Address   Operating System
-   Jump Box   Gateway   10.0.0.4   Linux
-   DVWA 1   Web Server   10.0.0.8   LINUX
-   DVWA 2   Web Server   10.0.0.9   LINUX
-   ELK	Monitoring   10.2.0.4   LINUX
+| Name     | Function   | IP Address | Operating System |
+|----------|------------|------------|------------------|
+| Jump Box | Gateway    | 10.0.0.4   | Linux            |
+| DVWA 1   | WebServer  | 10.0.0.8   | Linux            |
+| DVWA 2   | WebServer  | 10.0.0.9   | Linux            |
+| ELK      | Monitoring | 10.2.0.4   | Linux            |
+
 
 Access Policies
 
