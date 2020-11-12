@@ -40,7 +40,7 @@ Only the JUMP BOX_ machine can accept connections from the Internet. Access to t
 
 * my IP address
 
-Machines within the network can only be accessed by each other. The DVWA 1, DVWA 2 and DVWA 4 VMs send traffic to the Elk server.
+Machines within the network can only be accessed by each other. The VM's 2 + 3 send traffic to the Elk server.
 
 A summary of the access policies in place can be found in the table below.
 
@@ -65,7 +65,7 @@ The playbook implements the following tasks:
 * Download and launch a docker container
 
 
-**Target Machines & Beats
+**Target Machines & Beats**
 
 This ELK server is configured to monitor the following machines:
 
