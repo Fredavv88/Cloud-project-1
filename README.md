@@ -64,6 +64,9 @@ The playbook implements the following tasks:
 * Install pip module
 * Download and launch a docker container
 
+The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
+
+![alt text](https://github.com/Fredavv88/Cloud-project-1/blob/main/Diagrams/DockerPs.png)
 
 ###### **Target Machines & Beats**
 
