@@ -41,14 +41,11 @@ Machines within the network can only be accessed by each other. The DVWA 1, DVWA
 
 A summary of the access policies in place can be found in the table below.
 
-Name	Publicly Accessible	Allowed IP Addresses
-Jump Box	Yes/No	
-VM-3	NO	
-VM-4	NO	
-LOAD BAL.	YES	
-ALLOWED IP ADDRESSES: JUMP BOX: 10.0.0.8, 10.0.0.9, 10.2.0.4, 101.112.103.93
-VM-2: 10.0.0.8, 10.0.0.9, 10.2.0.4, 101.112.103.93
-VM-3: 10.0.0.8, 10.0.0.9, 10.2.0.4, 101.112.103.93
+| Name	   | Publicly Accessible |                       Allowed IP Addresses        |
+|----------|---------------------|---------------------------------------------------| 
+| Jump Box |       Yes           |   10.0.0.8, 10.0.0.9, 10.2.0.4,101.112.103.93     |
+| VM-2	   |        NO           |	  10.0.0.8, 101.112.103.93                       |
+| VM-3	   |        NO	         |    10.0.0.9, 101.112.103.93                       |
 
 LOAD BALANCER: 10.0.0.8, 10.0.0.9
 
