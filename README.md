@@ -20,7 +20,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly available, in addition to restricting Inbound access to the network.
 
-The configuration details of each machine may be found below. Note: Use the Markdown Table Generator to add/remove values from the table.
+The configuration details of each machine may be found below. 
 
 | Name     | Function   | IP Address | Operating System |
 |----------|------------|------------|------------------|
