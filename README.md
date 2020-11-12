@@ -22,11 +22,11 @@ Load balancing ensures that the application will be highly available, in additio
 
 The configuration details of each machine may be found below. Note: Use the Markdown Table Generator to add/remove values from the table.
 
-Name	Function	IP Address	Operating System
-Jump Box	Gateway	10.0.0.4	Linux
-DVWA 1	Web Server	10.0.0.8	LINUX
-DVWA 2	Web Server	10.0.0.9	LINUX
-ELK	Monitoring	10.2.0.4	LINUX
+   Name   Function	IP   Address   Operating System
+   Jump Box   Gateway   10.0.0.4   Linux
+   DVWA 1   Web Server   10.0.0.8   LINUX
+   DVWA 2   Web Server   10.0.0.9   LINUX
+   ELK	Monitoring   10.2.0.4   LINUX
 
 Access Policies
 
@@ -88,8 +88,3 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to Kibana to check that the installation worked as expected
 
 
-_Which URL do you navigate to in order to check that the ELK server is running? http://[yourvmIPaddress]:5601/app/kibana
-As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc.
-
-playbook-ansible "yamlfile.yml" (to run the playbook)
-update the config/host files in ansible (docker container) with nano e.g. nano "metricbeat-config.yml"
