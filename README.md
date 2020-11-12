@@ -101,4 +101,11 @@ SSH into the control node and follow the steps below:
 - Update the host file to include the webservers
 - Run the playbook, and navigate to Kibana to check that the installation worked as expected
 
+Example of a successful Filebeat Installation:
+
+![alt text](https://github.com/Fredavv88/Cloud-project-1/blob/main/Diagrams/Filebeat.png)
+
+Kibana dashboard: 
+
+![alt text](https://github.com/Fredavv88/Cloud-project-1/blob/main/Diagrams/Kibana.png)
 
