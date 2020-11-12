@@ -1,4 +1,4 @@
-:point_right: **Automated ELK Stack Deployment** :point_left:
+# :point_right: **Automated ELK Stack Deployment** :point_left:
 
 *The files in this repository were used to configure the network depicted below.*
 
@@ -16,7 +16,7 @@ This document contains the following details:
 * Machines Being Monitored
 * How to Use the Ansible Build
 
-**Description of the Topology** 
+## **Description of the Topology** 
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
@@ -32,7 +32,7 @@ The configuration details of each machine may be found below.
 | ELK      | Monitoring | 10.2.0.4   | Linux            |
 
 
-**Access Policies**
+### **Access Policies**
 
 The machines on the internal network are not exposed to the public Internet.
 
@@ -46,13 +46,13 @@ A summary of the access policies in place can be found in the table below.
 
 | Name	   | Publicly Accessible |                       Allowed IP Addresses        |
 |----------|---------------------|---------------------------------------------------| 
-| Jump Box |       Yes           |   10.0.0.8, 10.0.0.9, 10.2.0.4,101.112.103.93     |
-| VM-2	   |        NO           |	  10.0.0.8, 101.112.103.93                       |
-| VM-3	   |        NO	         |    10.0.0.9, 101.112.103.93                       |
+| Jump Box |       Yes           |   10.0.0.8, 10.0.0.9, 10.2.0.4,101.112.16.48      |
+| VM-2	   |        NO           |	  10.0.0.8, 101.112.16.48                        |
+| VM-3	   |        NO	         |    10.0.0.9, 101.112.16.48                        |
 
 LOAD BALANCER: 10.0.0.8, 10.0.0.9
 
-**Elk Configuration**
+#### **Elk Configuration**
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because the same script that was used to configure this machine can be used to quickly configure additional machines.
 
@@ -65,7 +65,7 @@ The playbook implements the following tasks:
 * Download and launch a docker container
 
 
-**Target Machines & Beats**
+###### **Target Machines & Beats**
 
 This ELK server is configured to monitor the following machines:
 
